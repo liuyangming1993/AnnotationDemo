@@ -29,7 +29,7 @@ public class MyProcessor extends AbstractProcessor {
     private Elements mElementUtils;
     private Filer mFiler;
     private Messager mMessager;
-    private static final String SUFFIX = "$$LIUYM";
+    private static final String SUFFIX = "_LIUYM";
 
     @Override
     public synchronized void init(ProcessingEnvironment processingEnvironment) {

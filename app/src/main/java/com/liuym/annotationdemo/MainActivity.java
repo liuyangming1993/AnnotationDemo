@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void changeText(View view) {
-        com.liuym.annotationdemo.auto.MainActivity$$LIUYM mainActivity$$LIUYM = new com.liuym.annotationdemo.auto.MainActivity$$LIUYM();
-        String message = mainActivity$$LIUYM.getMessage();
+        com.liuym.annotationdemo.auto.MainActivity_LIUYM mainActivity_LIUYM = new com.liuym.annotationdemo.auto.MainActivity_LIUYM();
+        String message = mainActivity_LIUYM.getMessage();
         ((TextView)view).setText(message);
     }
 }
